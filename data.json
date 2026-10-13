@@ -1,9 +1,3 @@
-{"decks":[
- {"id":"exemple","title":"Exemple : la Révolution française","desc":"Paquet de démonstration, à supprimer","level":"4e","color":"teal","lang":"","published":true,"owner":"lucaslecoadoupro","ownerName":"Lucas Le Coadou","cards":[
-  {"q":"1789","a":"Prise de la Bastille","ex":"14 juillet","cat":"Dates"},
-  {"q":"1792","a":"Proclamation de la République","ex":"","cat":"Dates"},
-  {"q":"1793","a":"Exécution de Louis XVI","ex":"","cat":"Dates"},
-  {"q":"Souveraineté nationale","a":"Le pouvoir appartient à la nation","ex":"","cat":"Notions"},
-  {"q":"Constitution","a":"Texte qui fixe l'organisation des pouvoirs","ex":"","cat":"Notions"}
- ]}
-]}
+{
+ "decks": []
+}
