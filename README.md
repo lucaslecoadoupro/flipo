@@ -31,7 +31,7 @@ Chaque enseignant a son propre compte GitHub et sa propre clé. Ses paquets sont
 **Créer sa clé d'accès** (chaque enseignant, une seule fois) :
 
 - **Le propriétaire du dépôt** : **Settings > Developer settings > Personal access tokens > Fine-grained tokens > Generate new token**. Dans **Repository access**, choisis **Only select repositories** puis `flipo`. Dans **Permissions > Repository permissions**, règle **Contents** sur **Read and write**. Tu peux aussi ajouter `flipo` à ta clé existante de Lexi, Conju ou Focus.
-- **Un collègue invité** : même chemin. Si GitHub ne propose pas le dépôt `flipo` dans un fine-grained token (ce type de clé ne voit souvent que tes propres dépôts), crée plutôt une clé **Tokens (classic)** avec la seule case **public_repo** cochée.
+- **Un collègue invité** : GitHub n'accepte pas les fine-grained tokens sur le dépôt d'un autre compte. Il faut une clé **classic** avec la seule case **public_repo** cochée. Ce lien ouvre le formulaire déjà rempli : https://github.com/settings/tokens/new?scopes=public_repo&description=Flipo
 - Choisis une date d'expiration (par exemple la fin de l'année scolaire), génère la clé, copie-la et range-la dans ton gestionnaire de mots de passe.
 
 Deux enseignants peuvent enregistrer en même temps : Flipo relit toujours la dernière version avant d'enregistrer, personne n'écrase le travail d'un collègue.
